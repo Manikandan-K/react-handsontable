@@ -1,7 +1,8 @@
 import React from 'react';
 import Handsontable from 'handsontable/dist/handsontable.full';
+import 'handsontable/dist/handsontable.full.css';
 
-export default class ReactHandsOnTable extends React.Component {
+export default class ReactHandsontable extends React.Component {
 
 
     componentDidMount() {

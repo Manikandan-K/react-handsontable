@@ -1,3 +1,3 @@
-import ReactHandsOnTable from './ReactHandsOnTable';
+import ReactHandsontable from './ReactHandsontable';
 
-module.exports = ReactHandsOnTable;
+module.exports = ReactHandsontable;

@@ -2,10 +2,11 @@
   "name": "react-handsontable",
   "version": "1.0.0",
   "description": "React wrapper for Handsontable",
-  "main": "dist/bundle.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "build-lib": "babel src --out-dir lib"
   },
   "author": "Manikandan Kumar <rkmanikarthick@gmail.com>",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "handsontable": "^0.26.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.11.1",
